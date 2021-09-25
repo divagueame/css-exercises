@@ -41,9 +41,20 @@ body {
   display: flex;  
   padding: 20px;
   border-radius: 12px ;
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: flex-start;
+  /* font-size: 121px; */
   /* padding: 20px; */
   /* border-radius: 50%; */
+}
+.info {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.name {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
 }
 .time-states {
   /* background-color: darkslategrey; */
@@ -52,10 +63,11 @@ body {
 
   justify-content:space-between;
 }
-.time-states > div {
 
+.time-state-active, .activity-text, .current{
+  color: white;
+  /* border: 20px solid black */
 }
-
 
 
 .card-body {
