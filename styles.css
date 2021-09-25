@@ -1,0 +1,170 @@
+/* - Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%) */
+* {
+  font-family: rubik;
+  padding: 0;
+  font-size: 18px;
+  color:hsl(236, 100%, 87%)
+}
+
+body {
+  /* padding: 0; */
+  margin:0;
+  display:flex;
+  flex-direction: column;
+  background-color: hsl(226, 43%, 10%);
+}
+
+
+.card {
+  margin: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  /* border: 2px yellow solid */
+  padding-top: 30px;
+}
+
+.info-card {
+  margin: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color:  hsl(235, 46%, 20%);
+}
+.info-card-body {
+  background-color: hsl(246, 80%, 60%);
+  display: flex;  
+  padding: 20px;
+  border-radius: 12px ;
+  /* justify-content: center; */
+  /* padding: 20px; */
+  /* border-radius: 50%; */
+}
+.time-states {
+  /* background-color: darkslategrey; */
+  display: flex;
+  padding: 20px;
+
+  justify-content:space-between;
+}
+.time-states > div {
+
+}
+
+
+
+.card-body {
+  background-color: hsl(235, 46%, 20%);
+  padding: 20px;
+  border-radius: 12px ;
+}
+.selfcare-card, .social-card, .exercise-card, .study-card, .play-card, .work-card {
+    
+  background-repeat: no-repeat;
+  background-size: 21%;
+  background-position: 90% -.75rem ;
+}
+
+.work-card {  
+  background-color: hsl(15, 100%, 70%);
+  background-image: url(images/icon-work.svg);
+}
+
+.selfcare-card{
+  background-color: hsl(43, 84%, 65%);
+  background-image: url(images/icon-self-care.svg);
+}
+
+.social-card{
+  background-color: hsl(264, 64%, 52%);
+  background-image: url(images/icon-social.svg);
+}
+
+.exercise-card{
+  background-color: hsl(145, 58%, 55%);
+  background-image: url(images/icon-exercise.svg);
+}
+
+.study-card{
+  background-color: hsl(348, 100%, 68%);
+  background-image: url(images/icon-study.svg);
+}
+.play-card{
+  background-color:hsl(195, 74%, 62%);
+  background-image: url(images/icon-play.svg);
+}
+
+
+.activity {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.dots, .dots::before,.dots::after {
+  background-color: hsl(236, 100%, 87%);
+  padding: 2.5px;
+}
+
+.dots {
+  position: relative;
+  border-radius: 5px;
+  font-size: 0;
+  /* margin-left: 20px; */
+  
+}
+.dots::before,.dots::after {
+  position: absolute;
+  left: 8px;
+  top:0px;
+  content: "";
+  /* padding: 2px; */
+  border-radius: 512px;
+}
+
+.dots::after {
+  /* background-color: darkorange; */
+  left: -8px;
+}
+
+.daily, .weekly, .monthly {
+  display: none;
+}
+
+.active-time {
+  display: block
+}
+
+
+.photo {
+  width: 66px;
+  height: 66px;
+  border: solid white 3px;
+  border-radius: 50%;
+  padding: 0;
+  content:url(images/image-jeremy.png)
+}
+
+
+
+.weekly {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: darkgreen; */
+}
+.current {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+@media (min-width: 600px){
+  
+  
+  
+}
