@@ -32,9 +32,9 @@
       </div>
     </div>
     <div class="time-states">
-      <div class="">Daily</div>
-      <div class="time-state-active">Weekly</div>
-      <div class="">Monthly</div>     
+      <div class="dailyToggle">Daily</div>
+      <div class="time-state-active weeklyToggle">Weekly</div>
+      <div class="monthlyToggle">Monthly</div>     
     </div>
   </div>
 
@@ -52,17 +52,17 @@
       </div>
 
       <div class="activity-info">
-        <div class="daily">
-          5hrs <!-- daily -->
-          Previous - 7hrs <!-- daily -->
+        <div class="daily" style="display: none">
+          <div class="current">5hrs <!-- daily --></div>
+          <div class="previous">Yesterday: 7hrs <!-- daily --></div>
         </div>
-        <div class="weekly active-time">
+        <div class="weekly"  style="display: block;">
           <div class="current">32hrs</div> <!-- weekly -->
-          <div class="previous">Previous - 36hrs</div><!-- weekly -->
+          <div class="previous">Last week: 36hrs</div><!-- weekly -->
         </div>
-        <div class="monthly">
-          103hrs <!-- monthly -->
-          Previous - 128hrs <!-- monthly -->
+        <div class="monthly"  style="display: none;">
+          <div class="current">103hrs <!-- monthly --></div>
+          <div class="previous">Last month: 128hrs <!-- monthly --></div>
         </div>
       </div>
     </div>
@@ -73,23 +73,23 @@
     <div class="card-body">
       <div class="activity">
         <div class="activity-text">Play</div>
-        <div>
+        <div class="dots-wrap">
           <span class="dots"></span>
         </div>
       </div>
 
       <div class="activity-info">
-        <div class="daily">
-          1hr <!-- daily -->
-          Previous - 2hrs <!-- daily -->
+        <div class="daily" style="display: none">
+          <div class="current">1hr <!-- daily --></div>
+          <div class="previous">Yesterday: 2hrs <!-- daily --></div>
         </div>
-        <div class="weekly active-time">
+        <div class="weekly" style="display: block;">
           <div class="current">10hrs</div> <!-- weekly -->
-          <div class="previous">Previous - 8hrs</div><!-- weekly -->
+          <div class="previous">Last week: 8hrs</div><!-- weekly -->
         </div>
-        <div class="monthly">
-          23hrs <!-- monthly -->
-          Previous - 29hrs <!-- monthly -->
+        <div class="monthly"  style="display: none;">
+          <div class="current">20hrs <!-- monthly --></div>
+          <div class="previous">Last month: 29hrs <!-- monthly --></div>
         </div>
       </div>
     </div>
@@ -107,17 +107,17 @@
       </div>
 
       <div class="activity-info">
-        <div class="daily">
-          0hr <!-- daily -->
-          Previous - 1hr <!-- daily -->
+        <div class="daily" style="display: none">
+          <div class="current">0hr <!-- daily --></div>
+          <div class="previous">Yesterday: 1hr <!-- daily --></div>
         </div>
-        <div class="weekly active-time">
+        <div class="weekly"  style="display: block;">
           <div class="current">4hrs</div> <!-- weekly -->
-          <div class="previous">Previous - 7hrs</div><!-- weekly -->
+          <div class="previous">Last week: 7hrs</div><!-- weekly -->
         </div>
-        <div class="monthly">
-          13hrs <!-- monthly -->
-          Previous - 19hrs <!-- monthly -->
+        <div class="monthly"  style="display: none;">
+          <div class="current">13hrs <!-- monthly --></div>
+          <div class="previous">Last month: 19hrs <!-- monthly --></div>
         </div>
       </div>
     </div>
@@ -134,17 +134,17 @@
       </div>
 
       <div class="activity-info">
-        <div class="daily">
-          1hr <!-- daily -->
-          Previous - 1hr <!-- daily -->
+        <div class="daily" style="display: none">
+          <div class="current">1hr <!-- daily --></div>
+          <div class="previous">Yesterday: 1hr <!-- daily --></div>
         </div>
-        <div class="weekly active-time">
+        <div class="weekly"  style="display: block;">
           <div class="current">4hrs</div> <!-- weekly -->
-          <div class="previous">Previous - 5hrs</div><!-- weekly -->
+          <div class="previous">Last week: 5hrs</div><!-- weekly -->
         </div>
-        <div class="monthly">
-          11hrs <!-- monthly -->
-          Previous - 18hrs <!-- monthly -->
+        <div class="monthly"  style="display: none;">
+          <div class="current">11hrs <!-- monthly --></div>
+          <div class="previous">Last month: 18hrs <!-- monthly --></div>
         </div>
       </div>
     </div>
@@ -160,17 +160,17 @@
       </div>
     </div>
     <div class="activity-info">
-      <div class="daily">
-        1hr <!-- daily -->
-        Previous - 3hrs <!-- daily -->
+      <div class="daily" style="display: none">
+        <div class="current">1hr <!-- daily --></div>
+        <div class="previous">Yesterday: 3hrs <!-- daily --></div>
       </div>
-      <div class="weekly active-time">
+      <div class="weekly"  style="display: block;">
         <div class="current">5hrs</div> <!-- weekly -->
-        <div class="previous">Previous - 10hrs</div><!-- weekly -->
+        <div class="previous">Last week: 10hrs</div><!-- weekly -->
       </div>
-      <div class="monthly">
-        21hrs <!-- monthly -->
-        Previous - 23hrs <!-- monthly -->
+      <div class="monthly"  style="display: none;">
+        <div class="current">21hrs <!-- monthly --></div>
+        <div class="previous">Last month: 23hrs <!-- monthly --></div>
       </div>
     </div>
   </div>
@@ -187,17 +187,17 @@
     </div>
 
     <div class="activity-info">
-      <div class="daily">
-        0hr <!-- daily -->
-        Previous - 1hr <!-- daily -->
+      <div class="daily" style="display: none">
+        <div class="current">0hr <!-- daily --></div>
+        <div class="previous">Yesterday: 1hr <!-- daily --></div>
       </div>
-      <div class="weekly active-time">
+      <div class="weekly"  style="display: block;">
         <div class="current">2hrs</div> <!-- weekly -->
-        <div class="previous">Previous - 2hrs</div><!-- weekly -->
+        <div class="previous">Last week: 2hrs</div><!-- weekly -->
       </div>
-      <div class="monthly">
-        7hrs <!-- monthly -->
-        Previous - 11hrs <!-- monthly -->
+      <div class="monthly"  style="display: none;">
+        <div class="current">7hrs <!-- monthly --></div>
+        <div class="previous">Last month: 11hrs <!-- monthly --></div>
       </div>
     </div>
   </div>
@@ -205,5 +205,57 @@
 </div>
 </div>
 </div>
+<script>
+  const dailyToggle = document.querySelector(".dailyToggle")
+  const weeklyToggle = document.querySelector(".weeklyToggle")
+  const monthlyToggle =document.querySelector(".monthlyToggle")
+  dailyCards = document.querySelectorAll(".daily")
+  weeklyCards = document.querySelectorAll(".weekly")
+  monthlyCards = document.querySelectorAll(".monthly")
+// time-state-active
+dailyToggle.addEventListener('click', function(){
+  dailyToggle.classList.add('time-state-active')
+  weeklyToggle.classList.remove('time-state-active')
+  monthlyToggle.classList.remove('time-state-active')
+
+    dailyCards.forEach(element => {  
+      element.style.display = 'block'
+    });
+    weeklyCards.forEach(element => {
+      element.style.display = 'none'
+    });
+    monthlyCards.forEach(element => {
+      element.style.display = 'none'
+    });
+  })
+  weeklyToggle.addEventListener('click', function(){
+  dailyToggle.classList.remove('time-state-active')
+  weeklyToggle.classList.add('time-state-active')
+  monthlyToggle.classList.remove('time-state-active')
+    dailyCards.forEach(element => {  
+      element.style.display = 'none'
+    });
+    weeklyCards.forEach(element => {
+      element.style.display = 'block'
+    });
+    monthlyCards.forEach(element => {
+      element.style.display = 'none'
+    });
+  })
+   monthlyToggle.addEventListener('click', function(){
+  dailyToggle.classList.remove('time-state-active')
+  weeklyToggle.classList.remove('time-state-active')
+  monthlyToggle.classList.add('time-state-active')
+    dailyCards.forEach(element => {  
+      element.style.display = 'none'
+    });
+    weeklyCards.forEach(element => {
+      element.style.display = 'none'
+    });
+    monthlyCards.forEach(element => {
+      element.style.display = 'block'
+    });
+  })
+  </script>
 </body>
 </html>

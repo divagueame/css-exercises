@@ -75,6 +75,10 @@ body {
   background-size: 21%;
   background-position: 90% -.75rem ;
 }
+.card-body:hover {
+  background-color: hsl(235, 45%, 61%);
+  cursor: pointer;
+}
 
 .work-card {  
   background-color: hsl(15, 100%, 70%);
@@ -138,14 +142,10 @@ body {
   left: -8px;
 }
 
-.daily, .weekly, .monthly {
-  display: none;
+.dots:hover,.dots:hover::after,.dots:hover::before{
+  background-color: white;
+  cursor: pointer;
 }
-
-.active-time {
-  display: block
-}
-
 
 .photo {
   width: 66px;
@@ -218,6 +218,8 @@ body {
   .time-states > div {
     padding: 8px
   }
+  .time-states > div:hover{cursor: pointer;
+  color: white;}
   .activities-container{
     flex-basis: 75%;
     /* height: 500px; */
